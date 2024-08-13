@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Utils;
+
+/**
+ *
+ * @author admin
+ */
+import java.util.Random;
+
+public class SoNgauNhien {
+	public static String getSoNgauNhien() {
+		Random rd = new Random();
+		String s1 = rd.nextInt(10) + "";
+		String s2 = rd.nextInt(10) + "";
+		String s3 = rd.nextInt(10) + "";
+		String s4 = rd.nextInt(10) + "";
+		String s5 = rd.nextInt(10) + "";
+		String s6 = rd.nextInt(10) + "";
+		
+		String s =  s1+s2+s3+s4+s5+s6;
+		return s;
+	}
+}

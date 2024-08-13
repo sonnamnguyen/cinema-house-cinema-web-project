@@ -1,0 +1,220 @@
+.movie {
+    margin-top: 150px;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 1000px;
+}
+.poster {
+    width: 40%;
+    height: auto;
+}
+.content {
+
+    padding: 20px;
+    width: 60%;
+}
+.content h1 {
+    margin-top: 0;
+}
+.metadata, .synopsis {
+    margin: 15px 0;
+}
+.metadata span {
+    display: block;
+    margin: 5px 0;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.trailer-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.trailer-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.buy-button {
+    padding: 10px 30px;
+    background-color: #28a745;
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+    color: white;
+}
+.user-comment{
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.user-feedbacks {
+    width: 70%;
+    margin: auto;
+}
+
+.feedback-container {
+    margin-top: 20px;
+}
+
+.feedback-card, .reply-card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.feedback-header, .reply-header {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-comment{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 3.8rem;
+}
+
+.user-info h3, .user-info h4 {
+    margin: 0;
+}
+
+.user-info .rating {
+    margin-top: 5px;
+}
+
+.feedback-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.comment-box {
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-box .rating {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.stars {
+    display: inline-block;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.stars input:checked ~ label {
+    color: gold;
+}
+
+.stars label:hover,
+.stars label:hover ~ label {
+    color: gold;
+}
+
+.submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: darkred;
+}
+/* General container styling */
+.screening-sessions {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.screening-sessions h2 {
+    text-align: center;
+    color: #FF7F00; /* Orange color */
+    margin-bottom: 20px;
+}
+
+/* Date row styling */
+.date-row {
+    margin-bottom: 20px;
+}
+
+.date {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Session button styling */
+.session-time {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #FF7F00; /* Orange border color */
+    border-radius: 5px;
+    background-color: white;
+    color: #FF7F00; /* Orange text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.session-time:hover {
+    background-color: #FF7F00; /* Orange background color */
+    color: white;
+}
+
+/* Styling for the "No sessions available" message */
+.sessions-container p {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}

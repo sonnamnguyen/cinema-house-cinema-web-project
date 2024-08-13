@@ -1,0 +1,114 @@
+.booking-container {
+    margin-top: 150px; /* Add a margin at the top for void space */
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+    
+.booking-container .dropdown-toggle {
+    border-radius: 10px;
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.booking-container .dropdown-toggle:hover {
+    background-color: yellow;
+}
+.card h-100{
+    background-color: black;
+}
+
+.movie-container {
+    margin: 0rem 7rem 0rem 7rem;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    border-radius: 0px;
+    border-top: 2px solid #fff;
+}
+
+.poster img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.showtimes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.time {
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.time:hover {
+    background-color: #555;
+}
+
+.format {
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.format:hover {
+    background-color: #555;
+}
+
+.book-button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.book-button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+

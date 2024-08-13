@@ -1,0 +1,88 @@
+.see-more-btn {
+    display: inline-block;
+    border: 2px solid yellow;
+    color: yellow;
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.see-more-btn:hover {
+    color: orange;
+    border-color: orange;
+}
+
+.see-more-btn::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 165, 0, 0.2);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.see-more-btn:hover::after {
+    left: 0;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.avatar {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the area */
+    margin-right: 8px; /* Optional: Add margin to separate from user name */
+}
+.user{
+    margin: 0px 0px 15px 0px !IMPORTANT;
+}
+.login{margin-bottom: 6px}
+.menu{margin-top: 25px}
+.navbar-choice{font-size: 18px}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f2f4f6; /* Light background color for the search box */
+    border-radius: 25px; /* Rounded corners */
+    padding: 5px 15px; /* Padding for the search box */
+    margin-bottom: 15px;
+}
+
+.search-container input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #6d6d6d; /* Light text color */
+    width: 200px; /* Adjust width as needed */
+}
+
+.search-container input::placeholder {
+    color: #b0b0b0; /* Placeholder color */
+}
+
+.search-container svg {
+    width: 20px;
+    height: 20px;
+}
+.login{
+    margin-left: 5px
+}
+.handlesearch{
+    border: none;
+    background-color: #f2f4f6;
+}
+.container-fluid{
+    margin: 0px 50px 0px 50px;
+}

@@ -1,0 +1,376 @@
+.carousel img {
+    width: 100%; /* Ensures the image fills the container's width */
+    height: 500px; /* Sets a fixed height for the images */
+    object-fit: cover; /* Maintains the aspect ratio and fills the container */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adds a small white border around the image */
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.title1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title2{
+    text-align: center;
+    margin-top: 150px;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    margin: 50px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+#carousel-container {
+    position: relative;
+}
+
+
+/* Adjust button size and ensure they are positioned correctly */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;  /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 10; /* Ensure they are above other elements */
+}
+/* General styling for the carousel items */
+.carousel-item .col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Center the name and ensure consistent spacing */
+.carousel-item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px; /* Adjust based on desired spacing */
+    margin-top: 10px; /* Adjust based on desired spacing */
+}
+
+.carousel-item .name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/* Styling for the big trailer section */
+.big-trailer-section {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-bottom: 20px; /* Adjust based on desired spacing */
+    overflow: hidden;
+}
+
+.trailer-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the video is behind the overlay */
+}
+
+.trailer-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container without distortion */
+}
+
+.trailer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding-left: 20px; /* Add some padding to the left */
+    z-index: 2; /* Ensure the overlay is above the video */
+    padding-left: 60px; /* Adjusted padding */
+
+}
+
+.trailer-overlay h2 {
+    font-size: 2em;
+}
+
+.trailer-overlay p {
+    margin: 0.5em 0;
+}
+
+.trailer-overlay a {
+    margin-top: 1em;
+}
+body {
+    background-color: black;
+    color: white; /* Text color */
+}
+.membership-program {
+    background-image: url('img/movie-time-cinema-film-strip-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px; /* Adjust as needed */
+}
+
+.membership-program .program {
+    position: relative;
+}
+
+.membership-program .program a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.membership-program .program img {
+    width: 40rem;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.membership-program .program h3 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding: 10px;
+}
+
+.membership-program .program .btn {
+
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.drop1{
+    width: 4rem;
+}
+.card {
+    background-color: black;
+}
+.card-body {
+    color: white;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.movie-card {
+    margin: 0 15px;
+}
+.more{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.col-lg-3, .col-md-4, .col-sm-6 {
+    display: flex;
+    flex: 0 0 21%; /* Flex basis is set to 21% to make space for margins */
+    max-width: 21%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.ui-front {
+    position: absolute;
+    z-index: 1051 !IMPORTANT; /* Ensure it's above the navbar */
+}
+
+.navbar {
+    z-index: 1030; /* Ensure the navbar is below the autocomplete dropdown */
+}
+.search-container {
+    position: relative;
+}
+
+#searchInput {
+    width: 100%; /* Ensure the search input takes full width */
+}
+
+
+
+/* CSS cho mục MEMBERSHIP PROGRAM */
+.membership-program {
+    background-image: url('img/movie-time-cinema-film-strip-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Điều chỉnh padding */
+    color: white; /* Đảm bảo văn bản màu trắng */
+}
+
+.membership-program .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.membership-program .program {
+    position: relative;
+    margin-bottom: 30px; /* Khoảng cách giữa các mục */
+}
+
+.membership-program .program img {
+    width: 100%; /* Đảm bảo hình ảnh đầy đủ chiều rộng */
+    height: auto;
+    border-radius: 15px; /* Thêm border-radius cho hình ảnh tròn hơn */
+}
+
+.membership-program .program h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Nền đen mờ */
+    border-radius: 10px; /* Thêm border-radius */
+}
+
+.membership-program .program p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.membership-program .program .btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 25px; /* Thêm border-radius */
+}
+
+/* CSS cho footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container .col {
+    margin: 10px;
+}
+
+footer h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer p, footer a {
+    color: #ccc;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các đoạn văn */
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: orange;
+}
+
+footer .contact-info p {
+    margin: 0 0 10px 0; /* Xóa margin trên và dưới để căn chỉnh văn bản */
+    line-height: 1.5; /* Đảm bảo khoảng cách dòng đều */
+}
+
+footer .contact-info i {
+    margin-right: 10px; /* Khoảng cách giữa icon và văn bản */
+}
+
+@media (max-width: 768px) {
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .container .col {
+        margin-bottom: 20px; /* Khoảng cách giữa các mục trên thiết bị di động */
+    }
+
+    .membership-program .program img {
+        width: 100%; /* Đảm bảo hình ảnh đầy đủ chiều rộng trên điện thoại */
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .login {
+        width: 100%; /* Đảm bảo nút LOGIN đầy đủ chiều rộng trên điện thoại */
+        text-align: center;
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .membership-program .program h3 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .membership-program .program .btn {
+        width: 80%; /* Đảm bảo nút đầy đủ chiều rộng trên điện thoại */
+    }
+}
+
+.premium-member-text {
+    text-align: center;
+}
+
+.learn-more-btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+/* Hiển thị menu khi di chuột qua */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Đảm bảo menu hiển thị ngay dưới mục */
+}
+

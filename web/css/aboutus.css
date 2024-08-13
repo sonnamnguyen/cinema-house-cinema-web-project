@@ -1,0 +1,115 @@
+
+.header {
+    position: relative;
+    background: url('../img/snapedit_1719486377338.jpeg');
+    padding: 100px 20px 50px 20px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.header h1,
+.header p {
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: white;
+}
+
+.header p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    color: white;
+}
+
+.mission {
+    background-color: black;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.mission h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.mission-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mission-card {
+    background: #003366;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    height: 190px;
+}
+
+.mission-card h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.vietnam img {
+    max-width: 100%;
+    height: auto;
+}
+.location{
+    background-color: black;
+}
+.location-card {
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #563d7c, #6a5acd);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.card p {
+    margin: 10px 0;
+    color: #ddd;
+}
+
+.card a {
+    color: #aad4e5;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,75 @@
+body {
+    background-color: #000; /* black */
+    color: #FFD700; /* yellow */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3, label {
+    color: white; /* yellow */
+    text-align: center;
+}
+
+.container-seat {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #111; /* dark black */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.screening-sessions {
+    width: 100%;
+}
+
+.cinema-list h3 {
+    margin-top: 0;
+}
+
+.date-row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-row label {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.time-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-buttons input[type="radio"] {
+    margin-right: 10px;
+}
+
+.time-buttons input[type="radio"] + span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buy-tickets-card {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+.session-time{
+        margin-left: 20px;
+}

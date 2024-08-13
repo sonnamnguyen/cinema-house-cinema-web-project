@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container-bill {
+    padding: 15px;
+}
+
+.Money {
+    margin-top: 130px;
+    color: orange;
+    text-align: center;
+}
+
+.form-section, .summary-section {
+    width: 60%;
+    color: white;
+   margin-left: 20%;
+}
+
+.form-group {
+    color: white;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    padding-left : 25%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a.cancel {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button.confirm {
+    background-color: orange;
+    color: white;
+}
+
+.summary-section img {
+    width: 80%; /* Smaller image width */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.movie-details h2 {
+    margin: 0 0 10px;
+    color: white;
+}
+
+.movie-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.movie-details span {
+    font-size: 12px;
+    color: #f44336;
+}
+.Bank img{
+    width: 120%;
+}

@@ -1,0 +1,38 @@
+.card {
+    margin: 50px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc inside;
+    padding: 0;
+}
+
+ul li {
+    
+    margin-bottom: 10px;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: blueviolet;
+    color: #ffffff;
+    border-color: blueviolet;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

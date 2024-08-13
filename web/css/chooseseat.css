@@ -1,0 +1,157 @@
+body {
+    background-color: #000; /* black */
+    color: white; /* yellow */
+    text-align: center; /* Center all text */
+    padding-top: 120px; /* Add padding at the top */
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, label {
+    color: white; /* yellow */
+}
+
+.container-seat {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.screening-sessions {
+    background-color: #111; /* dark black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cinema-list h3 {
+    margin-top: 0;
+}
+
+.date-row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-row label {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+.buy-tickets-card {
+    text-align: center;
+
+}
+.ticket-box{
+    border: 2px solid #FFD700; /* yellow border */
+    padding: 15px;
+    border-radius: 10px;
+     margin: 20px;
+     width: 30%;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Seat Selection Styles */
+.seat-selection {
+    text-align: center;
+
+}
+
+.screen {
+    width: 34%;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: 5px;
+}
+
+.seat-button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: pink;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.seat-button.vip {
+    border-color: orange;
+}
+
+.seat-button.regular {
+    border-color: pink;
+}
+
+.seat-button.economy {
+    border-color: green;
+}
+
+.seat-button.selected {
+    background-color: orange; /* Change selected seat color to orange */
+}
+
+.booked-seat {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: gray !important;
+    border: 2px solid;
+    cursor: pointer; 
+    text-align: center;
+    border-color: black;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend div {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.legend span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 2px solid;
+}
+
+.legend .vip span {
+    border-color: orange;
+}
+
+.legend .regular span {
+    border-color: pink;
+}
+
+.legend .economy span {
+    border-color: green;
+}
+
+.legend .booked span {
+    background-color: grey;
+    border-color: grey;
+}
+
+.legend .selected span {
+    background-color: orange; /* Change legend selected seat color to orange */
+}

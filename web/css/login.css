@@ -1,0 +1,82 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-signin {
+    width: 450px; /* Tăng chiều rộng của form */
+    padding: 40px; /* Tăng khoảng cách padding */
+    margin: auto;
+    border: 2px solid #ffcc00;
+    background-color: #1c1c1c; /* Nền của form */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 204, 0, 0.5);
+    color: #fff;
+}
+
+.form-signin h1 {
+    color: #ffcc00; /* Màu vàng nhạt */
+    font-weight: bold;
+}
+
+.form-floating {
+    margin-bottom: 15px; /* Khoảng cách giữa các input */
+}
+
+.form-floating input[type="text"],
+.form-floating input[type="password"] {
+    border-radius: 5px;
+    background-color: #333; /* Màu nền input */
+    color: #ffcc00; /* Màu chữ input */
+    border: 1px solid #444; /* Màu viền input */
+}
+
+.form-floating label {
+    color: #ffcc00; /* Màu chữ cho label */
+}
+
+.form-floating input[type="text"]:focus,
+.form-floating input[type="password"]:focus {
+    border-color: #ffcc00; /* Màu viền khi focus */
+    box-shadow: 0 0 0 0.25rem rgba(255, 204, 0, 0.25);
+}
+
+.form-check-label {
+    color: #ffcc00; /* Màu chữ cho checkbox */
+}
+
+.checkbox a {
+    color: #ffcc00; /* Màu chữ cho link */
+    text-decoration: none;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password-link {
+    color: #fff !important; /* Màu trắng cho link */
+}
+
+.btn-primary {
+    background-color: #ff5722; /* Màu cam cho nút */
+    border-color: #ff5722;
+}
+
+.btn-primary:hover {
+    background-color: #ff7043;
+    border-color: #ff7043;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 34, 0.5);
+}
+
+.text-muted {
+    color: #ffcc00 !important;
+}
