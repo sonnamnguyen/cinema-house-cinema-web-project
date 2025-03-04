@@ -83,7 +83,3 @@ mvn clean install
 For inquiries or suggestions, feel free to reach out:
  **Email**: [sonnamsonnam402@gmail.com](mailto:sonnamsonnam402@gmail.com)  
  **LinkedIn**: [My LinkedIn Profile](linkedin.com/in/son-nam-nguyen-0a8094354)
-
----
-
- **Cinematic - Bringing the best movie experience to your screen!** 🎥🍿
