@@ -1,32 +1,32 @@
-# 🎬 Cinematic - Online Cinema Ticket Booking System
+#  Cinematic - Online Cinema Ticket Booking System
 
-## 📌 Overview
+##  Overview
 Cinematic is a web-based cinema ticket booking system developed using Java Server Pages (JSP) and Servlets. It enables users to browse movies, select seats, and book tickets online, ensuring a seamless and secure transaction process. Administrators can efficiently manage movie schedules, ticket slots, and user bookings. The system also incorporates secure authentication using Bcrypt password encryption and email notifications via SMTP.
 
 ---
 
-## 🛠️ System Requirements
+##  System Requirements
 
-### 1️⃣ Development Environment
+### 1️. Development Environment
 - **JDK**: Java Development Kit (JDK 8, 11, or newer) _(Recommended: JDK 8)_
 - **Apache Tomcat**: Version 9.x or 10.x _(Supports JSP 2.3 & Servlet 4.0)_
 - **Maven**: Version 2.3.x or newer _(If using dependency management)_
 
-### 2️⃣ Development Tools (IDE - Optional)
+### 2️. Development Tools (IDE - Optional)
 - **Eclipse IDE for Enterprise Java Developers**
 - **IntelliJ IDEA Ultimate** _(Paid version required for full support)_
 - **NetBeans** _(Integrated support for JSP & Servlets)_
 
-### 3️⃣ Database (Optional)
+### 3️. Database (Optional)
 - **SQL Server** 2019 or newer
 
-### 4️⃣ Related Technologies (If Used)
+### 4️. Related Technologies (If Used)
 - **JSTL** (JavaServer Pages Standard Tag Library) - Enhances JSP functionality
 - **JDBC** (Java Database Connectivity) - Manages database interactions
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 - **Backend**: Java, Servlet, JSP
 - **Frontend**: JavaScript, HTML, CSS, Bootstrap, jQuery
 - **Database**: MS SQL
@@ -35,31 +35,31 @@ Cinematic is a web-based cinema ticket booking system developed using Java Serve
 
 ---
 
-## 🔹 Role & Contributions
+##  Role & Contributions
 **Role**: Leader (Full-Stack Developer)  
 **Team Size**: 2 members  
 
-### 🔥 Key Responsibilities:
-✅ **Database Design** - Analyzed business requirements and structured the database schema.  
-✅ **Backend Development** - Implemented core booking system functionalities & admin panel.  
-✅ **Security** - Integrated Bcrypt for password hashing & email notifications via SMTP.  
-✅ **Frontend Development** - Designed and developed a user-friendly interface.  
+###  Key Responsibilities:
+- **Database Design** - Analyzed business requirements and structured the database schema.  
+- **Backend Development** - Implemented core booking system functionalities & admin panel.  
+- **Security** - Integrated Bcrypt for password hashing & email notifications via SMTP.  
+- **Frontend Development** - Designed and developed a user-friendly interface.  
 
 ---
 
-## 📂 Project Setup & Installation
+##  Project Setup & Installation
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 ```sh
 git clone https://github.com/huypqse/CENEMATIC.git
 ```
 
-### 2️⃣ Import Project (Using Eclipse or IntelliJ)
+### 2️. Import Project (Using Eclipse or IntelliJ)
 - Open your IDE and import the project as a **Maven project**.
 - Ensure **Apache Tomcat** is installed and configured in the IDE.
 - Set up **SQL Server** and import the required database schema.
 
-### 3️⃣ Build & Run the Project
+### 3️. Build & Run the Project
 #### Using Maven:
 ```sh
 mvn clean install
@@ -74,16 +74,16 @@ mvn clean install
 
 ---
 
-## 🔗 GitHub Repository
-🔗 [Cinematic on GitHub](https://github.com/sonnamnguyen/cinema-house-cinema-web-project)
+##  GitHub Repository
+ [Cinematic on GitHub](https://github.com/sonnamnguyen/cinema-house-cinema-web-project)
 
 ---
 
-## 📧 Contact
+##  Contact
 For inquiries or suggestions, feel free to reach out:
-📩 **Email**: [sonnamsonnam402@gmail.com](mailto:sonnamsonnam402@gmail.com)  
-👨‍💻 **LinkedIn**: [My LinkedIn Profile](linkedin.com/in/son-nam-nguyen-0a8094354)
+ **Email**: [sonnamsonnam402@gmail.com](mailto:sonnamsonnam402@gmail.com)  
+ **LinkedIn**: [My LinkedIn Profile](linkedin.com/in/son-nam-nguyen-0a8094354)
 
 ---
 
-💡 **Cinematic - Bringing the best movie experience to your screen!** 🎥🍿
+ **Cinematic - Bringing the best movie experience to your screen!** 🎥🍿
