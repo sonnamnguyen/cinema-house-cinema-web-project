@@ -19,7 +19,7 @@ import java.sql.Date;
 
 import java.util.ArrayList;
 import java.util.List;
-import javafx.util.Pair;
+import Utils.Pair;
 
 public class MovieDAO {
 

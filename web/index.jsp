@@ -22,7 +22,7 @@
             <!-- Big Trailer Section -->
             <div class="col-12 big-trailer-section">
                 <div class="trailer-container">
-                    <video id="trailerVideo" class="trailer-video" src="img/Y2meta.app-1917 - Official Trailer [HD]-(1080p).mp4" autoplay loop muted></video>
+                    <video id="trailerVideo" class="trailer-video" src="img/trailer.mp4" autoplay loop muted></video>
                     <div class="trailer-overlay">
                         <div class="trailer-details">
                             <h2 id="trailerTitle">1917</h2>
